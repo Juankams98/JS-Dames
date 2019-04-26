@@ -1,0 +1,28 @@
+.row{
+    height: 50px;
+}
+.square{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+.whiteSquare{
+    background-color: #E5C07D
+}
+.blackSquare{
+    background-color: #885D4D
+}
+.token{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.blackToken{
+    background-color: #313131;
+}
+.whiteToken{
+    background-color: #dddddd;
+}
+.moveOption{
+    background-color: #463028;
+}
