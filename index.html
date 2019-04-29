@@ -9,8 +9,23 @@
     <title>Damas</title>
 </head>
 <body>
-    <h1>LAS DAMAS</h1>
-    <div id="table"></div>
+    <h1><div class="fakeToken fakeBlackToken"></div>LAS DAMAS<div class="fakeToken fakeWhiteToken"></div></h1>
+    <div id="container">
+        <div id="gameContainer">
+            <div id="leftTable">
+                <p id="whiteTitle">WHITE TURN</p>
+                <div class="fakeToken2 fakeWhiteToken"></div>
+            </div>
+            <div id="table"></div>
+            <div id="rightTable">
+                <p id="blackTitle">BLACK TURN</p>
+                <div class="fakeToken2 fakeBlackToken"></div>
+            </div>
+        </div>
+        <button onclick="createTable()" >RESTART</button>    
+    </div>
+    
+    
     <script src="main.js"></script>
 </body>
 </html>
