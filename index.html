@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="style.css" />
     <title>Damas</title>
-</head>
-<body>
-    <h1><div class="fakeToken fakeBlackToken"></div>LAS DAMAS<div class="fakeToken fakeWhiteToken"></div></h1>
-    <div id="container">
-        <div id="gameContainer">
-            <div id="leftTable">
-                <p id="whiteTitle">WHITE TURN</p>
-                <div class="fakeToken2 fakeWhiteToken"></div>
-            </div>
-            <div id="table"></div>
-            <div id="rightTable">
-                <p id="blackTitle">BLACK TURN</p>
-                <div class="fakeToken2 fakeBlackToken"></div>
-            </div>
-        </div>
-        <button onclick="createTable()" >RESTART</button>    
+  </head>
+  <body>
+    <div title="titleContainer">
+      <h1>
+        <div class="fakeToken fakeBlackToken"></div>
+        LAS DAMAS
+        <div class="fakeToken fakeWhiteToken"></div>
+      </h1>
     </div>
-    
-    
+    <div id="container">
+      <div id="gameContainer">
+        <div id="leftTable">
+          <p id="whiteTitle">WHITE TURN</p>
+          <div class="fakeToken2 fakeWhiteToken"></div>
+        </div>
+        <div id="table"></div>
+        <div id="rightTable">
+          <p id="blackTitle">BLACK TURN</p>
+          <div class="fakeToken2 fakeBlackToken"></div>
+        </div>
+      </div>
+      <button onclick="createTable()">RESTART</button>
+    </div>
+
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
